@@ -18,7 +18,7 @@ A lightweight Chrome Extension that helps you monitor your **browsing-based carb
 
 ------
 
-## 🔧 How to Install
+🔧 How to Install
 
 1. [Download the latest release ZIP]([https://github.com/yourusername/web-carbon-tracker/releases](https://github.com/harshkumar0461/Web-Carbon-Tracker/releases/tag/v1.0.0))
 2. Go to `chrome://extensions/`
@@ -28,11 +28,22 @@ A lightweight Chrome Extension that helps you monitor your **browsing-based carb
 
 ---
 
-## 📸 Preview
+📸 Preview
 ![image](https://github.com/user-attachments/assets/9f42d11b-6284-46a0-a61f-479535e3902c)
 
+---
 
+🚫 Privacy First
 
+This extension does **not collect**, store, or transmit any personal data.  
+All tracking is done **locally in your browser**. It uses the `chrome.webRequest` API to calculate data usage, and that's it.
+
+---
+
+🤝 Contributions
+
+Pull requests, ideas, and feedback are welcome!  
+Let’s make the web greener — one tab at a time.
 
 
 
