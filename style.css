@@ -1,0 +1,81 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0f4f8;
+  width: 320px;
+}
+.card {
+  margin: 12px;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  text-align: center;
+}
+h1 {
+  font-size: 24px;
+  color: #1c7c54;
+  margin-bottom: 16px;
+}
+.stat {
+  margin: 12px 0;
+}
+.stat label {
+  font-size: 14px;
+  color: #777;
+  display: block;
+}
+.stat p {
+  font-size: 18px;
+  color: #111;
+  margin: 4px 0;
+  font-weight: bold;
+}
+.progress {
+  margin: 10px 0;
+  font-size: 14px;
+}
+.bar {
+  width: 100%;
+  height: 10px;
+  background: #ddd;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-top: 4px;
+}
+.fill {
+  height: 100%;
+  background: #28a745;
+  width: 0%;
+}
+.tip {
+  margin-top: 8px;
+  font-size: 13px;
+  color: #4a4a4a;
+}
+footer {
+  margin-top: 12px;
+  font-size: 13px;
+  color: #888;
+}
+footer a {
+  color: #2a7f62;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+button {
+  background-color: #2a7f62;
+  color: white;
+  padding: 6px 12px;
+  margin-top: 8px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #1d5f4a;
+}

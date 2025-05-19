@@ -1,0 +1,19 @@
+
+{
+  "manifest_version": 3,
+  "name": "Web Carbon Tracker",
+  "description": "Tracks your carbon emissions based on web activity.",
+  "version": "1.0",
+  "permissions": ["webRequest", "storage", "notifications"],
+  "host_permissions": ["*://*/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "icons": {
+    "48": "icon.png"
+  }
+}

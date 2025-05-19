@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>🌿 Web Carbon Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="card">
+    <h1>Carbon Tracker</h1>
+    <div class="stat">
+      <label>Tracking Since:</label>
+      <p id="startTime">Loading...</p>
+    </div>
+    <div class="stat">
+      <label>Total CO₂ Emitted:</label>
+      <p id="carbon">Calculating...</p>
+    </div>
+    <div class="stat">
+      <label>Top Site:</label>
+      <p id="topSite">Loading...</p>
+    </div>
+    <div class="progress">
+      <label>Daily Goal: <span id="goalProgress">0%</span></label>
+      <div class="bar"><div class="fill" id="goalBar"></div></div>
+    </div>
+    <div class="buttons">
+      <button id="toggleTrack">Pause</button>
+    </div>
+    <div class="tip">
+      🌱 Tip: <span id="ecoTip">Loading...</span>
+    </div>
+    <footer>
+      <small>Made with 💙 by <a href="https://www.linkedin.com/feed/" target="_blank">Harsh Kumar</a></small>
+    </footer>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
