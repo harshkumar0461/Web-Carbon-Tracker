@@ -28,7 +28,6 @@ A lightweight Chrome Extension that helps you monitor your **browsing-based carb
 
 ---
 
-📸 Preview
 ![image](https://github.com/user-attachments/assets/9f42d11b-6284-46a0-a61f-479535e3902c)
 
 ---
